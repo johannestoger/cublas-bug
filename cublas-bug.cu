@@ -77,4 +77,5 @@ int main(int argc, char *argv[])
     cudaFree(B);
     cudaFree(C);
 
+    cublasDestroy(cublas_h);
 }
