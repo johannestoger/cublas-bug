@@ -2,7 +2,7 @@
 
 Output on my machine when Ar = 24000, Ac = 100000.
 
-Bug is triggered Bc > 1 and N_A > 2^31
+Bug is triggered when Bc > 1 and N_A > ~2^31
 
 ```
 Init cuBLAS...
